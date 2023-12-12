@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MRI Scan">
+      <UniqueIdentifier>{4fb3ec6c-1acc-42ee-ad1c-8b22f07591bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{3059f899-a3e9-4a90-8e18-9b2218835126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ray tracing">
+      <UniqueIdentifier>{9377950b-a6a9-4737-b61d-f71b3ab81a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenGL">
+      <UniqueIdentifier>{6984970f-0046-40ef-b5ad-c6c35e8ab391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA\CPU">
+      <UniqueIdentifier>{eabc9452-6c77-4053-b579-b7060357852b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA\GPU">
+      <UniqueIdentifier>{58e71523-7a16-4c08-a06d-c2325d29a68f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DSA_problems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BVH.h">
+      <Filter>Header Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Porsche_texture.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderAccess.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread_Pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Cuda_file.cu">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+    <CudaCompile Include="GPU_Ray.cu">
+      <Filter>CUDA\GPU</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Math_Structs.cuh">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+    <CudaCompile Include="GPU_Ray.cuh">
+      <Filter>CUDA\GPU</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Cuda_head.cuh">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CPU_Ray.cu">
+      <Filter>CUDA\CPU</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CPU_Ray.cuh">
+      <Filter>CUDA\CPU</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

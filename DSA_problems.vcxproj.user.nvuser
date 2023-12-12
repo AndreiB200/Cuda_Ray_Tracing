@@ -1,0 +1,8 @@
+﻿<ProjectSettingsModel DefinitionId="a218e900-1199-4ab1-a767-7976786f04d4" DisplayName="Nexus Project User Settings" xmlns="clr-namespace:Ark.PropertyModel;assembly=Ark">
+    <SettingsPointModel DefinitionId="3eb7ba04-016d-475e-b0ff-daa5f0e59a08" DisplayName="Launch">
+        <Property Name="ConnectionName" Value="DESKTOP-MSQ5HA1" />
+        <Property Name="ExternalStartProgram" Value="C:\Users\user\source\repos\DSA_problems\x64\Debug\DSA_problems.exe" />
+        <Property Name="LaunchAction" Value="StartExternalProgram" />
+        <Property Name="WorkingDirectory" Value="C:\Users\user\Desktop\Nsight telemetry" />
+    </SettingsPointModel>
+</ProjectSettingsModel>
